@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altas</title>
+    <link rel="stylesheet" href="/CSS/altas.css">
 </head>
 <body>
     <h1>Alta de productos</h1>
+    <div id="botones">
     <a href="/Paginas/inventario.html"><p>Atras</p></a>
     <a href="/index.html"><p>Home</p></a>
+    </div>
 
     <form id="altaProductoForm">
         <div>
@@ -32,7 +35,7 @@
             <input type="number" id="cantidad" name="cantidad" min="0" required>
         </div>
         <div>
-            <button type="submit">Guardar</button>
+            <button type="submit" id="btnGuardar">Guardar</button>
         </div>
     </form>
 </body>
